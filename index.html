@@ -3,43 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Site Builder</title>
+  <title>Chat App</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="header">
+  <div class="chat-container">
 
-  <!-- Center Title -->
-  <div class="logo">
-    AI Site Builder
+    <div class="chat-header">
+      💬 Chat Room
+    </div>
+
+    <div class="chat-box" id="chatBox">
+      <!-- messages appear here -->
+    </div>
+
+    <div class="input-area">
+      <input type="text" id="messageInput" placeholder="Type a message...">
+      <button onclick="sendMessage()">Send</button>
+    </div>
+
   </div>
 
-  <!-- Right Side Buttons -->
-  <div class="auth-buttons">
-    <button class="login-btn">Login</button>
-    <button class="signup-btn">Sign Up</button>
-  </div>
-
-</header>
-
-<main class="main">
-
-  <h1 class="hero-title">
-    Create Your Website With AI
-  </h1>
- 
-  <textarea
-    class="prompt-box"
-    placeholder="Describe your website..."
-  ></textarea>
-
-  <button class="generate-btn">
-    Generate Website
-  </button>
-
- 
-</main>
-
+  <script src="script.js"></script>
 </body>
 </html>
