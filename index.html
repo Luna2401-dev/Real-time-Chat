@@ -8,11 +8,20 @@
 </head>
 <body>
 
+<div class="chat-wrapper">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div class="sidebar-header">Users</div>
+    <ul id="userList">
+      <!-- Users will appear here -->
+    </ul>
+  </div>
+
+  <!-- Chat Area -->
   <div class="chat-container">
 
-    <div class="chat-header">
-      💬 Chat Room
-    </div>
+    <div class="chat-header" id="chatHeader">Chit Chat</div>
 
     <div class="chat-box" id="chatBox">
       <!-- messages appear here -->
@@ -24,7 +33,9 @@
     </div>
 
   </div>
+</div>
 
-  <script src="script.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
