@@ -1,2 +1,3 @@
-# Real Time chat website
-creating a chat wesbite 
+# Resume builder
+creating a resume building website
+
