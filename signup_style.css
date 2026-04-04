@@ -1,93 +1,81 @@
-/* page background */
 body {
     margin: 0;
     height: 100vh;
-    background: #d9d1c7; /* warm beige */
+    font-family: Arial, sans-serif;
+    background: #a9c9d9;   /* soft sky blue */
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial, sans-serif;
 }
 
-/* form card */
+/* card */
 .Sign_Up {
-    background: #f5f3ef;
+    background: #efefef;
     padding: 40px 30px;
-    width: 320px;
-    border-radius: 28px;
-    box-shadow: 0 12px 30px rgba(60, 40, 20, 0.25);
+    width: 300px;
+    border-radius: 25px;
     text-align: center;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
 }
 
-/* decorative accent bar */
+/* decorative top element */
 .top-design {
-    width: 60px;
-    height: 6px;
-    background: #5a3e2b;   /* dark brown accent */
-    border-radius: 10px;
-    margin: 0 auto 15px;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 10px;
+    background: radial-gradient(circle at 30% 30%, #7ed0e6, #5aaec5);
+    border-radius: 50%;
 }
 
 /* heading */
 .Sign_Up h2 {
-    margin: 0;
-    color: #5a3e2b; /* dark brown */
-    font-size: 22px;
-    font-weight: 600;
+    margin: 10px 0 5px;
 }
 
 /* subtitle */
 .subtitle {
-    margin: 6px 0 18px;
-    color: #7a6a5a;
     font-size: 13px;
+    color: #777;
+    margin-bottom: 25px;
 }
 
 /* labels */
 .Sign_Up label {
     display: block;
     text-align: left;
-    margin-top: 14px;
     font-size: 13px;
-    color: #6b5746;
+    color: #777;
+    margin-top: 15px;
 }
 
-/* inputs */
+/* underline inputs */
 .Sign_Up input {
     width: 100%;
-    padding: 12px;
-    border-radius: 20px;
-    border: 1px solid #e0d9d2;
-    margin-top: 6px;
-    background: #e8e4df;
+    border: none;
+    border-bottom: 1px solid #bbb;
+    background: transparent;
+    padding: 8px 2px;
     font-size: 14px;
-    transition: 0.2s;
 }
 
-/* focus effect */
 .Sign_Up input:focus {
     outline: none;
-    border-color: #5a3e2b;
-    background: #dfdad4;
+    border-bottom: 2px solid #5aaec5;
 }
 
-/* button */
+/* pill button */
 .Sign_Up button {
+    margin-top: 25px;
     width: 100%;
-    margin-top: 22px;
     padding: 12px;
-    border-radius: 25px;
-    border: none;
-    background: #7b5a44; /* rich brown */
-    color: white;
+    border-radius: 30px;
+    border: 2px solid #999;
+    background: #dcdcdc;
     font-size: 15px;
-    letter-spacing: 1px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-/* button hover */
 .Sign_Up button:hover {
-    background: #5a3e2b; /* darker brown */
-    transform: translateY(-1px);
+    background: #cfcfcf;
 }

@@ -1,0 +1,142 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Segoe UI, sans-serif;
+}
+
+body{
+  background: #a9c9d9;
+}
+
+/* NAVBAR */
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:18px 40px;
+  background:white;
+  box-shadow:0 2px 8px rgba(0,0,0,0.05);
+}
+
+.logo{
+  font-size:24px;
+  font-weight:700;
+}
+
+.logo span{
+  color:#2bb673;
+}
+
+.navbar ul{
+  list-style:none;
+  display:flex;
+  gap:25px;
+  color:#0f172a;
+}
+
+/* LAYOUT */
+.builder-wrapper{
+  display:flex;
+  gap:40px;
+  padding:40px;
+}
+
+/* LEFT FORM */
+.form-section{
+  width:35%;
+  background:white;
+  padding:30px;
+  border-radius:14px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.06);
+}
+
+.form-section h2{
+  margin-bottom:5px;
+}
+
+.subtitle{
+  color:white;
+  margin-bottom:20px;
+}
+
+.form-section label{
+  display:block;
+  margin-top:15px;
+  font-weight:600;
+}
+
+.form-section input,
+.form-section textarea{
+  width:100%;
+  padding:12px;
+  margin-top:6px;
+  border-radius:8px;
+  border:1px solid #ddd;
+  font-size:14px;
+}
+
+.form-section textarea{
+  height:100px;
+  resize:none;
+}
+
+.save-btn{
+  margin-top:25px;
+  width:100%;
+  padding:14px;
+  border:none;
+  border-radius:10px;
+  background:#2bb673;
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.save-btn:hover{
+  background:#249e60;
+}
+
+/* RESUME PREVIEW */
+.resume-preview{
+  width:65%;
+  background:white;
+  padding:40px;
+  border-radius:14px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.resume-preview h1{
+  font-size:30px;
+  color:#3b82f6
+}
+
+.contact-info{
+  display:flex;
+  gap:20px;
+  flex-wrap:wrap;
+  color:#444;
+  margin:10px 0;
+}
+
+.profession{
+  font-weight:600;
+  color:#2bb673;
+  margin-bottom:10px;
+}
+
+hr{
+  margin:20px 0;
+  border:none;
+  border-top:2px solid black
+}
+
+.section{
+  margin-top:20px;
+}
+
+.section h3{
+  margin-bottom:6px;
+  color :#444;
+}

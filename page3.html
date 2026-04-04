@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Builder - Background</title>
+  <link rel="stylesheet" href="page3_style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">resume<span>.</span></div>
+  <ul>
+    <li>Home</li>
+    <li>About</li>
+    <li>Contact</li>
+  </ul>
+</nav>
+
+<div class="builder-wrapper">
+
+  <!-- LEFT FORM -->
+  <div class="form-section">
+
+    <h2>Professional Background</h2>
+    <p class="subtitle">Add your career & skills</p>
+
+    <label>Education</label>
+    <input type="text" id="education" placeholder="BCA - XYZ University">
+
+    <label>Skills</label>
+    <input type="text" id="skills" placeholder="JavaScript, Python, UI Design">
+
+    <label>Experience</label>
+    <textarea id="experience" placeholder="Intern at ABC Company..."></textarea>
+
+    <button class="save-btn">Save & Continue</button>
+
+  </div>
+
+
+  <!-- RIGHT RESUME PREVIEW -->
+  <div class="resume-preview">
+
+    <h1 id="pName">Your Name</h1>
+
+    <div class="contact-info">
+      <span id="pEmail"></span>
+      <span id="pPhone"></span>
+      <span id="pLocation"></span>
+    </div>
+
+    <p id="pProfession" class="profession"></p>
+
+    <hr>
+
+    <div class="section">
+      <h3>Education</h3>
+      <p id="pEducation">Your education details</p>
+    </div>
+
+    <div class="section">
+      <h3>Skills</h3>
+      <p id="pSkills">Your skills</p>
+    </div>
+
+    <div class="section">
+      <h3>Experience</h3>
+      <p id="pExperience">Your experience</p>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="page3.js"></script>
+</body>
+</html>

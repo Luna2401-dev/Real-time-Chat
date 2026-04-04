@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="page2_style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="logo">resume<span>.</span></div>
+
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Templates</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="user">
+        Hi, User
+        <button class="logout">Logout</button>
+    </div>
+</nav>
+
+<div class="container">
+
+    <!-- LEFT PANEL -->
+    <div class="form-panel">
+        <h3>Personal Information</h3>
+        <p class="sub">Get started with your basic details</p>
+
+        <input type="text" id="name" placeholder="Full Name">
+
+        <input type="email" id="email" placeholder="Email Address">
+
+        <input type="text" id="phone" placeholder="Phone Number">
+
+        <input type="text" id="location" placeholder="Location">
+
+        <input type="text" id="profession" placeholder="Profession">
+
+        <button type="button" class="next-btn" onclick="goToBackground()">Next</button>
+    </div>
+
+    <!-- RIGHT PANEL (LIVE PREVIEW) -->
+    <div class="preview-panel">
+        <div class="resume">
+            <h1 id="previewName">Your Name</h1>
+            <hr>
+
+            <p id="previewEmail">email@example.com</p>
+            <p id="previewPhone">+91 00000 00000</p>
+            <p id="previewLocation">City, Country</p>
+            <p id="previewProfession">Your Profession</p>
+        </div>
+    </div>
+
+</div>
+
+<script src="page2.js"></script>
+</body>
+</html>
